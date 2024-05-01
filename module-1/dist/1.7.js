@@ -27,8 +27,12 @@ var __assign = (this && this.__assign) || function () {
     };
     var totalMentor = __assign(__assign({}, mentors1), mentors2);
     console.log(totalMentor);
-    var greetFriends = function (friends) {
+    var greetFriends = function () {
+        var friends = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            friends[_i] = arguments[_i];
+        }
         friends.forEach(function (friend) { return console.log("Hi ".concat(friend)); });
     };
-    greetFriends(["Shihan", "Shadhin", "Razzak", "Jobayer"]);
+    greetFriends("Shihan", "Shadhin", "Razzak", "Jobayer");
 }

@@ -23,8 +23,8 @@
   };
   console.log(totalMentor);
 
-  const greetFriends = (friends: string[]) => {
+  const greetFriends = (...friends: string[]) => {
     friends.forEach((friend) => console.log(`Hi ${friend}`));
   };
-  greetFriends(["Shihan", "Shadhin", "Razzak", "Jobayer"]);
+  greetFriends("Shihan", "Shadhin", "Razzak", "Jobayer");
 }
