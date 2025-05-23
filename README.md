@@ -69,7 +69,7 @@ Feel free to fork this repository and contribute by submitting a pull request fo
 
 ## 📜 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the  [MIT License](LICENSE).
 
 ## 📫 Contact
 
